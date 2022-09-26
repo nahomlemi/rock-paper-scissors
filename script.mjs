@@ -29,25 +29,25 @@ function main(){
 
     let stats = "you:-"+playerChoise+"|computer:-"+computerChoise+" ";
     if (computerChoise == "rock" && playerChoise == "scissors"){
-        return stats + "computer wins";
+        return stats + "computer wins!, rock beats scissors!";
     }
     else if (computerChoise == "paper" && playerChoise == "rock"){
-        return stats + "computer wins";
+        return stats + "computer wins! paper beats rock!";
     }
     else if (computerChoise == "scissors" && playerChoise == "paper"){
-        return stats + "computer wins";
+        return stats + "computer wins! scissors beat paper!";
     }
 
 //computer wins
 
     else if (computerChoise == "rock" && playerChoise == "paper"){
-        return stats + "player wins";
+        return stats + "player wins, paper beats rock!";
     }
     else if (computerChoise == "paper" && playerChoise == "scissors"){
-        return stats + "player wins";
+        return stats + "player wins! scissors beat paper!";
     }
     else if (computerChoise == "scissors" && playerChoise == "rock"){
-        return stats + "player wins";
+        return stats + "player wins! rock beats scissors!";
     }
     else{
         return stats + "draw"

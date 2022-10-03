@@ -10,6 +10,18 @@ function getComputerChoise(){
             return "scissors";
     }
 }
+
+function getPlayerChoise(){
+    let input = document.querySelectorAll('.button');
+
+    Array.from(input).forEach(function(buttons){
+        buttons.addEventListener('click', fucntion(){
+            if
+        })
+    })
+}
+
+/**
 function getPlayerChoise(){
     let input = prompt("inter \n0-rock\n 1:paper \n 2:scissors");
     switch (input){
@@ -23,6 +35,8 @@ function getPlayerChoise(){
             return"invalid input";
     }
 }
+
+**/
 
 function main(){
     let computerChoise = getComputerChoise();
